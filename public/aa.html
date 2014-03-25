@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
+    <script>
+
+        var stage, output;
+
+        function init() {
+            stage = new createjs.Stage("demoCanvas");
+
+            // this lets our drag continue to track the mouse even when it leaves the canvas:
+            // play with commenting this out to see the difference.
+            stage.mouseMoveOutside = true;
+
+            var circle = new createjs.Shape();
+            circle.graphics.beginFill("red").drawCircle(0, 0, 50);
+
+            var label = new createjs.Text("drag me", "bold 14px Arial", "#FFFFFF");
+            label.textAlign = "center";
+            label.y = -7;
+
+            var dragger = new createjs.Container();
+            dragger.x = dragger.y = 100;
+            dragger.addChild(circle, label);
+            stage.addChild(dragger);
+
+            dragger.on("pressmove",function(evt) {
+                // currentTarget will be the container that the event listener was added to:
+                evt.currentTarget.x = evt.stageX;
+                evt.currentTarget.y = evt.stageY;
+                // make sure to redraw the stage to show the change:
+                stage.update();
+            });
+
+            stage.update();
+        }
+
+
+        /*var stage, circle;
+
+        function init() {
+            stage = new createjs.Stage("demoCanvas");
+
+            circle = new createjs.Shape();
+            circle.graphics.beginFill("red").drawCircle(0, 0, 40);
+            circle.y = 50;
+
+            circle.addEventListener("tick", function() {
+                circle.x += 5;
+                if (circle.x > stage.canvas.width) { circle.x = 0; }
+            });
+
+            //circle.addEventListener("click", function(event) { alert("clicked"); })
+
+
+            circle.on("pressmove", function(evt) {
+                evt.target.x = evt.stageX;
+                evt.target.y = evt.stageY;
+            });
+            circle.on("pressup", function(evt) { console.log("up"); })
+
+            stage.addChild(circle);
+
+
+            stage.update();
+            //createjs.Ticker.on("tick", tick);
+            //createjs.Ticker.setFPS(40);
+            //createjs.Ticker.setFPS(80);
+            //createjs.Ticker.timingMode = createjs.Ticker.RAF;
+        }
+
+        function tick(event) {
+
+            stage.update(event); // important!!
+        }*/
+    </script>
+</head>
+<body onLoad="init();">
+<canvas id="demoCanvas" width="500" height="300">
+    alternate content
+</canvas>
+</body>
+</html>
