@@ -1,0 +1,3 @@
+[2014-04-02 06:03:33.873] [INFO] crash-log - [32m[/www/loredal/game-server/node_modules/pomelo/lib/master/master.js] [39m[client],[pomelo_list_1396433013787],[1396433013873],[disconnect]
+[2014-04-02 06:06:03.738] [INFO] crash-log - [32m[/www/loredal/game-server/node_modules/pomelo/lib/master/master.js] [39m[client],[pomelo_list_1396433163655],[1396433163738],[disconnect]
+[2014-04-02 06:42:36.298] [INFO] crash-log - [32m[/www/loredal/game-server/node_modules/pomelo/lib/master/master.js] [39m[connector],[connector-server-1],[1396435356298],[disconnect]

@@ -1,0 +1,9 @@
+[2014-04-02 06:00:09.170] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2014-04-02 06:00:09.770] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2014-04-02 06:03:19.237] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2014-04-02 06:03:19.809] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2014-04-02 06:03:33.856] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js] [39mclient user : admin login to master
+[2014-04-02 06:03:33.874] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js] [39mclient user admin exit
+[2014-04-02 06:06:03.722] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js] [39mclient user : admin login to master
+[2014-04-02 06:06:03.740] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js] [39mclient user admin exit
+[2014-04-02 06:42:36.283] [INFO] pomelo-admin - [32m[/www/loredal/game-server/node_modules/pomelo/node_modules/pomelo-admin/lib/masterAgent.js] [39mclient user : admin login to master
